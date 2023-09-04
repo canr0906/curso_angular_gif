@@ -1,0 +1,48 @@
+bg-dark => color de fondo oscuro
+p-3 => espacio en todos los lados laterales del elemento con respecto a sus elementos internos
+text-light => color del texto
+list-group => tratar los elementos internos como una lista 
+list-reset => ?
+list-group-item  => elementos de una lista
+list-group-item-action => sombrear elementos de una lista cuando pasas el cursos
+
+row => trata el elemento como una fila
+col-12 => el elemento tomara el total del espacio
+pt-2 => espacio en el borde superior
+
+card-img-top => 
+
+form-control = elemento de un formulario
+
+
+@Input()
+@Output()
+@ViewChild()
+
+
+
+Sistema que tenga un SideBar, una pagina con un search Box y un lista de tarjetas
+	cada palabra que se escriba en el searchbox se muestre en el side bar en la primera posicion
+	que se limpie el searbox, que se capitalice la primer letra de la palabra si es compuesta la primera de cada palabra
+	solo se muestren 10 elementos mas recientes
+	que no seguarden los enter o bacios
+	que si se ya existe una palabra ingresada en el arreglo que borre la que ya este e inserte la nueva
+	Realizar peticion HTTP a https://developers.giphy.com/ para obtener GIFS
+	Crear la interface para mapear los objetos devueltos por la pagina anterior y saber como luce 
+	Al dar click en cualquiera de las busquedas que se muetre en card-list 
+	Al refrescar el navegado conservar los Tags, almacenar en LocalStorage
+		Guadar y Leer en el LocalStorage
+	Al recargar la pagina que se muestren los GIFs de la primera opcion de busqueda
+
+Seccion 8
+	Especializar los cards por si se van a usar en otro modulo. Creamos un componente gif-card y renderizarlo
+	en el card-list
+	Creamos componente LazyImage en Shared y necesitaremos cargar un load antes de mostrar la imagen
+		https://samherbert.net/svg-loaders/
+		en assets cramos un archivo y pegamos el contenido de la animacion 
+	Agregando animaciones	
+		https://animate.style/	
+
+
+
+Seccion 9
